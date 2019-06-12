@@ -15,6 +15,14 @@ module.exports = {
             {
                 test: /\.tsx?$/,
                 loader: 'awesome-typescript-loader'
+            },
+            {
+                test: /\.scss$/,
+                loaders: [
+                    require.resolve('style-loader'),
+                    require.resolve('css-loader'),
+                    require.resolve('sass-loader')
+                ]
             }
         ]
     },
