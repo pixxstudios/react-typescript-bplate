@@ -1,5 +1,5 @@
 {
-  "name": "react-typescript-starter",
+  "name": "react-typescript-bplate",
   "version": "1.0.0",
   "description": "An empty hello world react application in Reactjs using Typescript",
   "main": "index.tsx",
